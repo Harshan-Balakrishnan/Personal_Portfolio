@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo" data-aos="zoom-in" data-aos-duration="1500">Harshan</a>
+        <nav>
+            <a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">About</a>
+            <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">Skills</a>
+            <a href="#services" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1700">Services</a>
+            <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1800">Contact</a>
+        </nav>
+    </header>
+    <canvas id="particles"></canvas>
+    <section class="home">
+        <div class="home-img">
+            <img src="./Images/file_00000000394c624694917c910ab7adc4.png" alt="Photo">
+        </div>
+        <div class="home-content">
+        <h1>Hi, It's <span>Harshan</span></h1>
+        <h3 class="typing-text">I'm a <span id="typed-text"></span></h3>
+        <p></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/harshan-balakrishnan-770310369" target="_blank" class="active"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://github.com/Harshan-Balakrishnan" target="_blank" class="active"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="https://www.linkedin.com/in/harshan-balakrishnan-770310369" target="_blank" class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">Hire Me</a>
+    </div>
+    </section>
+
+<!-- About Section Start -->
+
+<section class="about" id="about">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+
+    <div class="about-details">
+    <div class="left"  data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+        <img src="./Images/Picsart_25-07-13_09-00-49-633.jpg" alt="">
+    </div>
+    <div class="right">
+        <div class="topic"  data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">Problem Solving Is My Passion</div>
+        <p  data-aos="flip-down" data-aos-duration="1200" data-aos-delay="300">Hi! I'm Harshan, a passionate learner in the fields of **Data Science** and **Front-End Web Development**.
+        I enjoy transforming raw data into meaningful insights and creating beautiful, functional websites using HTML, CSS, and JavaScript. <br> I'm currently building my skills through hands-on projects, certifications, and real-world practice.<br>
+        Whether it's analyzing business data, creating visual dashboards, or designing a user-friendly website <br>— I love turning ideas into solutions.<br>
+        📍Based in Sri Lanka | 📊 Aspiring Data Scientist | 💻 Front-End Developer
+</p>
+          <a href="#" class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Download CV</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- My Skill Section Start -->
+<section class="skills" id="skills">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Skills</span></div>
+        <div class="skills-details">
+            <div class="text">
+                <div class="topic"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">
+                    Skills Reflects Knowledge
+                </div>
+                <p data-aos="fade-right"></p>
+                <div class="experience"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">
+                    <div class="num">1</div>
+                    <div class="exp">
+                        Years Of <br>
+                        Experience
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">
+                    <div class="topic">HTML</div>
+                    <div class="per">50%</div>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="800">
+                    <div class="topic">CSS</div>
+                    <div class="per">50%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="1000">
+                    <div class="topic">Python</div>
+                    <div class="per">0%</div>
+              </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Services</span></div>
+        <div class="boxes">
+            <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Web Development</div>
+                <p>Front-end</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+                    <div class="icon">
+                        <i class="fa fa-binoculars"></i>
+                    </div>
+                        <div class="topic">Simple Business Insights</div>
+                        <p>Provide insights like top-selling products, monthly trends, etc.</p>
+                    </div>
+                     <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <div class="icon">
+                        <i class="fa fa-line-chart"></i>
+                    </div>
+                        <div class="topic">Data visualization</div>
+                        <p> Creating meaningful charts/graphs to explain trends.</p>
+                </div>
+                 <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                    <div class="icon">
+                        <i class="fa fa-database"></i>
+                    </div>
+                        <div class="topic">Data Cleaning & Preprocessing</div>
+                        <p>Description: Fixing missing data, converting formats, normalizing, etc.</p>
+                </div>
+                </div>
+                </div>
+            </div>
+ </section>
+    
+ <!------Contact Me Section Start--------->
+ <section class="contact" id="contact">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500">
+            <span>Contact Me</span>
+        </div>
+        <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+            <p></p>
+            <a href="https://wa.me/94771553693?text=Hi%20Harshan%2C%20I%20saw%20your%20portfolio!" target="_blank" class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Let's Chat</a>
+        </div>
+    </div>
+ </section>
+
+
+ <!--------Footer Section Start----------->
+ <footer>
+    <div class="text">
+        <span>Created By
+        <a href="mailto:harisharshan2004@gmail.com">harisharshan2004@gmail.com</a>
+        &#169; 2025 All Rights Reserved</span>
+        </div>
+ </footer>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({offset:0});
+  </script>
+
+
+
+
+
+
+
+<!-------------Js Script for typed text--------------->
+<script>
+    const roles = [
+        "Studentt",
+        "Data Analystt",
+        "Data Scientistt",
+        "Web Developerr",
+        "Web Designerr"
+    ];
+
+    const typedText = document.getElementById("typed-text");
+    let roleIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function type() {
+        const currentRole = roles[roleIndex];
+        if (isDeleting) {
+            typedText.textContent = currentRole.substring(0, charIndex--);
+        } else {
+            typedText.textContent = currentRole.substring(0, charIndex++);
+        }
+
+        let typingSpeed = isDeleting ? 50 : 100;
+
+        if (!isDeleting && charIndex === currentRole.length) {
+            typingSpeed = 1500;
+            isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            roleIndex = (roleIndex + 1) % roles.length;
+            typingSpeed = 500;
+        }
+
+        setTimeout(type, typingSpeed);
+    }
+
+    type();
+</script>
+
+
+<!-- js for background animation -->
+ <script>
+const canvas = document.getElementById("particles");
+const ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+
+function createParticles() {
+  for (let i = 0; i < 100; i++) {
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      radius: Math.random() * 2 + 1,
+      speedX: Math.random() * 0.5 - 0.25,
+      speedY: Math.random() * 0.5 - 0.25,
+    });
+  }
+}
+
+function drawParticles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for (let p of particles) {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+    ctx.fillStyle = "#e76604";
+    ctx.fill();
+    p.x += p.speedX;
+    p.y += p.speedY;
+
+    if (p.x < 0 || p.x > canvas.width) p.speedX *= -1;
+    if (p.y < 0 || p.y > canvas.height) p.speedY *= -1;
+  }
+  requestAnimationFrame(drawParticles);
+}
+
+createParticles();
+drawParticles();
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
